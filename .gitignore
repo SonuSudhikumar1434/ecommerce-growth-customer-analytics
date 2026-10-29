@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Power BI temporary files
+*.tmp
+*.pbi-tools
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Python cache
+.pytest_cache/
+
+# Temporary files
+*.log
+# Project data
+data/raw/*
+data/processed/*
+
+# Python virtual environment and local database protection
+data/raw/
+data/processed/
